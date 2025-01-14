@@ -1,0 +1,109 @@
+@charset "uft-8";
+
+/*header*/
+header {
+    width: 1185px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+
+/*로고*/
+
+#logo {
+    width: 300px;
+    height: 80px;
+    float: left;
+    margin: 20px 0 0 0px;
+}
+
+
+#logo>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#login {
+    width: 300px;
+    height: 30px;
+    float: right;
+    margin: 30px 20px 0 0px;
+}
+
+
+
+/*로그인*/
+
+#login>ul>li {
+    float: left;
+    color: #666;
+    font-size: 11px;
+}
+
+#login>ul>li>a {
+    color: #666;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+
+/*네비*/
+
+nav {
+    width: 920px;
+    height: 25px;
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    margin: 0 30px;
+    font-size: 16px;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 2px solid #ddd;
+}
+
+#box {
+    width: 1240px;
+    height: 200px;
+    margin: 30px auto 0;
+}
+
+#box>ul {
+    width: 750px;
+    height: 20px;
+    float: left;
+    margin: 0px 0 0 10px;
+    font-size: 12px;
+}
+
+#box>ul>li {
+    float: left;
+    margin: 0px 20px;
+    color: #666;
+}
+
+#box>ul>li>a {
+    text-decoration: none;
+    color: #666;
+}
+
+#box>p {
+    margin: 10px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    font-size: 12px;
+}

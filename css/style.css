@@ -1,0 +1,144 @@
+        @charset "uft-8";
+
+        /*슬라이더*/
+        #slider {
+            width: 100%;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        #slider>img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+        section {
+            width: 1200px;
+            height: 2400px;
+            margin: 0 auto;
+        }
+
+
+
+
+        /*상품*/
+        #product {
+            width: 100%;
+            height: 800px;
+            float: left;
+            margin: 30px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #product>h3 {
+            width: 100%;
+            height: 20px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #product>p {
+            width: 100%;
+            height: 50px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /*상품 박스 8개*/
+        #product>.productbox {
+            width: 270px;
+            height: 330px;
+            margin: 10px;
+        }
+
+        #product>.productbox>img {
+            width: 100%;
+            height: 230px;
+        }
+
+        /*세일*/
+        #sale {
+            width: 100%;
+            height: 500px;
+            float: left;
+            margin: 20px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #sale>h3 {
+            width: 100%;
+            height: 20px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #sale>p {
+            width: 100%;
+            height: 50px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /*세일 박스 5개*/
+        #sale>.salebox {
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+        }
+
+        #sale>.salebox>img {
+            width: 100%;
+            height: 250px;
+        }
+
+        /*베스트 박스 8개*/
+        #best {
+            width: 100%;
+            height: 900px;
+            float: left;
+            margin: 30px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        #best>h3 {
+            width: 100%;
+            height: 20px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #best>p {
+            width: 100%;
+            height: 50px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        /*베스트*/
+        #best>.bestbox {
+            width: 270px;
+            height: 330px;
+            margin: 10px;
+        }
+
+        #best>.bestbox>img {
+            width: 100%;
+            height: 250px;
+        }
